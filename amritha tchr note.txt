@@ -1,0 +1,75 @@
+                                                 React
+
+ React - frontend technology
+---------------------------
+React is a technology to create UI
+view layer for web application 
+single page web application  
+created by facebook(2013)                                    
+
+npx create-react-app my-app
+cd my-app
+npm start
+clean the code
+
+     Basics
+   -----------
+components
+- React app starts with a single root components
+- root component is build using one or more component
+- each component can be nested with other component to any level     
+
+ comman task in frontend development
+ ------------------------------------
+ App state - data definition,orangisation and storage
+ User actions - event handlers respond to user actions
+ Templates - 
+
+
+ jsx
+.jsx stands for javascript xml
+.jsx provides you to write HTML/XML the preprocessor will transform these expressions into actual javascript code
+eg
+<div>hello world</div>
+react.createElement(" ")
+
+react.createElement function
+.every jsx is converted to the React.createElement function call that the browser understand
+
+.type-can be an HTML tag like h1 div or it can be react component
+.props
+.children-contain other HTML tags or can be component
+
+uses of jsx
+.it is faster than regular javascript
+
+virtual DOM
+.this process if comparing the current virtual DOM tree with the previous one is known as diffing
+.the entrie process of transforming changes to the real DOM is called Reconciliation
+
+component rendering
+.when a component function excecutes we say it renders
+.assume component may re.render at anytime our jobs is to ensure that every time the component re-render 
+components in React
+.in react everything is 
+
+components are two types
+
+ adding a state variable
+
+1)import{useState} from 'react;
+
+2)let index = 0;
+const [index,setIndex] = useState(0);
+
+updating the value of state
+function onClick(){
+  setIndex
+}
+
+
+    React materil UI
+----------------------------
+1.site :https://mui.com/material-ui/
+2.installation:npm install @mui/material @emotion/react @emotion/styled
+              npm install @mui/material @mui/styled-engine-sc styled-components
